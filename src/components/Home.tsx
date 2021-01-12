@@ -1,12 +1,10 @@
 /* eslint max-len: 0 */
 import React from 'react';
 
-import Header from './Header';
 import '../css/Home.css';
 
 const Home = () => (
   <main className="page home">
-    <Header />
     <section className="hero">
       <article>
         <h1>Bart Boogaard, Buitencoach</h1>
