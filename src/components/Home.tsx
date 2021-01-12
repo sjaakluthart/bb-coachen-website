@@ -87,7 +87,7 @@ const Home = () => (
     </article>
     <section className="quote vuur">
       <article>
-        <h1>Brand je vuur nog?</h1>
+        <h1>Brandt jouw vuur nog?</h1>
       </article>
     </section>
   </main>
