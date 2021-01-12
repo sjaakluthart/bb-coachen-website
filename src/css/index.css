@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500&display=swap');
 
+:root {
+  --green: #39B54A;
+  --soft-green: #D3EBD1;
+  --softer-green: #EAf6EA;
+  --light-green: #92CC8D;
+  --dark-green: #1D6839;
+  --white: #FFFFFF;
+  --black: #11171C;
+  --light-gray: #969696;
+  --lighter-gray: #CCCCCC;
+}
+
 body {
   margin: 0;
   font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,4 +19,89 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--black);
+}
+
+p {
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 8px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.hero {
+  min-height: 380px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--white);
+}
+
+.hero article {
+  display: block;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+.hero p {
+  max-width: 440px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 8px;
+}
+
+.hero p:last-child {
+  margin-bottom: 0;
+}
+
+article {
+  width: 100%;
+  padding: 24px;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+article section {
+  flex: 1;
+}
+
+article section:first-child {
+  margin-right: 24px;
+}
+
+.quote {
+  background-position: center;
+  background-size: cover;
+  height: 380px;
+}
+
+.quote article {
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.quote h1 {
+  font-size: 40px;
+  color: var(--white);
+  margin-bottom: 0;
 }

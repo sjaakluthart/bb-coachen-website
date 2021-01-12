@@ -1,0 +1,18 @@
+.home .hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url('../assets/hero-home.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.quote.buiten {
+  background-image: url('../assets/buiten.jpg');
+}
+
+.quote.vuur {
+  background-image: url('../assets/vuur.jpg');
+}
+
+.quote.vuur article {
+  flex-direction: row;
+  justify-content: flex-end;
+}
