@@ -1,0 +1,15 @@
+footer {
+  padding: 16px;
+  text-align: center;
+  background-color: var(--lighter-gray);
+}
+
+footer a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+footer nav a {
+  display: inline-block;
+  padding: 0 8px 16px;
+}
