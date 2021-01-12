@@ -2,10 +2,11 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 import '../css/Header.css';
+import logo from '../assets/logo.svg';
 
 const Header = () => (
   <header className="app-header">
-    <h1>BB Coachen</h1>
+    <img src={logo} alt="BB Coachen" />
     <nav>
       <NavLink to="/" exact>
         Home
