@@ -9,8 +9,3 @@
 .quote.vuur {
   background-image: url('../assets/vuur.jpg');
 }
-
-.quote.vuur article {
-  flex-direction: row;
-  justify-content: flex-end;
-}
