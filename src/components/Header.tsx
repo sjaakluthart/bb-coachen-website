@@ -6,11 +6,10 @@ import logo from '../assets/logo.svg';
 
 const Header = () => (
   <header className="app-header">
-    <img src={logo} alt="BB Coachen" />
+    <NavLink to="/" exact>
+      <img src={logo} alt="BB Coachen" />
+    </NavLink>
     <nav>
-      <NavLink to="/" exact>
-        Home
-      </NavLink>
       <NavLink to="/about" exact>
         Wie is BB
       </NavLink>

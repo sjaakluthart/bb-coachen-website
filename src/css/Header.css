@@ -20,7 +20,7 @@ header > h1 {
   margin-bottom: 0;
 }
 
-header a {
+header nav a {
   font-size: 24px;
   color: var(--black);
   text-decoration: none;
@@ -29,7 +29,7 @@ header a {
   margin: 4px;
 }
 
-header a.active {
+header nav a.active {
   border-bottom: 2px solid currentColor;
 }
 
