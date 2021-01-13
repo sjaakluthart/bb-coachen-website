@@ -13,6 +13,9 @@ const Header = () => (
       <NavLink to="/about" exact>
         Wie is BB
       </NavLink>
+      <NavLink to="/expeditions" exact>
+        Expedities
+      </NavLink>
       <NavLink to="/sign-up" exact>
         Meld je aan
       </NavLink>

@@ -1,0 +1,61 @@
+.expeditions .hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url('../assets/hero-expeditions.jpg');
+}
+
+.slick-prev {
+  left: 24px;
+  z-index: 1;
+}
+
+.slick-next {
+  right: 24px;
+  z-index: 1;
+}
+
+.slick-dots {
+  bottom: 6px;
+}
+
+.slick-dots li button:before,
+.slick-dots li.slick-active button:before {
+  color: var(--white);
+  font-size: 8px;
+}
+
+.slide {
+  background-size: cover;
+  background-position: center;
+  color: var(--white);
+  height: 380px;
+}
+
+.slide article {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide article h1 {
+  width: 100%;
+  max-width: 440px;
+}
+
+.slide article p {
+  max-width: 440px;
+  font-weight: 500;
+}
+
+.slide.robbert {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url('../assets/hero-robbert.jpg');
+}
+
+.slide.jelmer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url('../assets/hero-jelmer.jpg');
+}
+
+.slide.sjaak {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url('../assets/hero-sjaak.jpg');
+  background-position: top;
+}
