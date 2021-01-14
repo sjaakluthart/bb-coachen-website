@@ -9,7 +9,7 @@ const About = () => (
       <article>
         <h1>Wie is Bart?</h1>
         <p>
-          Bart is een nuchtere en aimabele levenskunstenaar met empathie en confronteert waar nodig. Als financieel professional keek hij al naar de mens achter de cijfers, als buitencoach werd dat zijn vak.
+          Bart is een nuchtere en aimabele levenskunstenaar met empathie.
         </p>
       </article>
     </section>

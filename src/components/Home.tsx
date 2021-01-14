@@ -8,9 +8,9 @@ const Home = () => (
     <section className="hero">
       <article>
         <h1>Bart Boogaard, Buitencoach</h1>
-        <p>
+        {/* <p>
           Je bent een ondernemende jongvolwassene of (top)sporter. Je wilt je doelen bereiken. In je werk, studie of sport én in je leven. Maar je hebt niet helder waarom je niet verder komt. Of wat je het allerliefste wilt. Wat nu?
-        </p>
+        </p> */}
         <p>
           Ik ga met jou op zoek naar jouw focus, wat voor jou werkt en naar jouw glimlach.
         </p>

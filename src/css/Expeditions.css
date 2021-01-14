@@ -43,6 +43,7 @@
 .slide article h1 {
   width: 100%;
   max-width: 440px;
+  color: var(--white);
 }
 
 .slide article p {

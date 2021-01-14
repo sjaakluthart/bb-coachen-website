@@ -18,9 +18,6 @@ const Expeditions = () => (
       <article>
         <h1>Leef met een glimlach</h1>
         <p>
-          Je bent een ondernemende jongvolwassene of (top)sporter. Je wilt je doelen bereiken. In je werk, studie of sport én in je leven. Maar je hebt niet helder waarom je niet verder komt. Of wat je het allerliefste wilt. Wat nu?
-        </p>
-        <p>
           Ik ga met jou op zoek naar jouw focus, wat voor jou werkt en naar jouw glimlach.
         </p>
       </article>
