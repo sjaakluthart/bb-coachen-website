@@ -10,7 +10,7 @@
   --black: #1D1F1F;
   --gray: #707075;
   --light-gray: #F2F2F3;
-  --overlay: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55));
+  --overlay: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
   --image-height: 440px;
 }
 
