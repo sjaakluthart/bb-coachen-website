@@ -1,11 +1,11 @@
 .home .hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url('../assets/hero-home.jpg');
+  background-image: var(--overlay), url('../assets/hero-home.jpg');
 }
 
 .quote.buiten {
-  background-image: url('../assets/buiten.jpg');
+  background-image: var(--overlay), url('../assets/buiten.jpg');
 }
 
 .quote.vuur {
-  background-image: url('../assets/vuur.jpg');
+  background-image: var(--overlay), url('../assets/vuur.jpg');
 }

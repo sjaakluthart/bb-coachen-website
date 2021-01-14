@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap');
 
 :root {
   --green: #39B54A;
@@ -11,6 +11,8 @@
   --gray: #969696;
   --light-gray: #CCCCCC;
   --lighter-gray: #f1f1f1;
+  --overlay: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70));
+  --image-height: 440px;
 }
 
 body {
@@ -24,9 +26,9 @@ body {
 }
 
 p {
-  font-size: 16px;
-  line-height: 23px;
-  margin-bottom: 8px;
+  font-size: 17px;
+  line-height: 24px;
+  margin-bottom: 12px;
 }
 
 p:last-child {
@@ -35,12 +37,12 @@ p:last-child {
 
 h1 {
   font-family: 'Bebas Neue', sans-serif;
-  font-size: 24px;
-  margin-bottom: 8px;
+  font-size: 26px;
+  margin-bottom: 12px;
 }
 
 .hero {
-  min-height: 380px;
+  min-height: var(--image-height);
   width: 100%;
   box-sizing: border-box;
   display: flex;
@@ -53,19 +55,21 @@ h1 {
 
 .hero article {
   display: block;
+  width: auto;
 }
 
 .hero h1 {
   font-size: 36px;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .hero p {
   max-width: 440px;
-  font-weight: 500;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 25px;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .hero p:last-child {
@@ -74,7 +78,7 @@ h1 {
 
 article {
   width: 100%;
-  padding: 24px;
+  padding: 44px 32px;
   box-sizing: border-box;
   max-width: 1000px;
   margin: 0 auto;
@@ -92,7 +96,7 @@ article section:first-child {
 .quote {
   background-position: center;
   background-size: cover;
-  height: 380px;
+  height: var(--image-height);
 }
 
 .quote article {
@@ -100,13 +104,15 @@ article section:first-child {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
 }
 
 .quote h1 {
   font-size: 40px;
   color: var(--white);
   margin-bottom: 0;
+  text-align: center;
 }
 
 .sign-up {
@@ -117,6 +123,10 @@ article section:first-child {
 
 @media (min-width: 768px) {
   article {
+    padding: 56px 0;
+  }
+
+  article > section {
     display: flex;
     flex-wrap: wrap;
   }
