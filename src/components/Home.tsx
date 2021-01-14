@@ -96,6 +96,7 @@ const Home = () => (
         <p>
           Gemiddeld duurt een Coach Expeditie twee tot vier kwartalen. Qua kosten voor een expeditie kun je denken aan circa €800 tot €1.400 inclusief btw. (voor bedrijven is dit exclusief btw)
         </p>
+        <a href="mailto:bart@bbcoachen.nl?subject=Coach Expeditie" className="sign-up">Meld je aan</a>
       </section>
     </article>
   </main>
