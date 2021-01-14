@@ -15,19 +15,15 @@ header nav {
   justify-content: flex-end;
 }
 
-header > h1 {
-  font-size: 40px;
-  margin-bottom: 0;
-}
-
 header nav a,
 header .sign-up {
-  font-size: 24px;
+  font-size: 30px;
+  line-height: inherit;
   color: var(--black);
   text-decoration: none;
   border-bottom: 2px solid transparent;
   display: inline-block;
-  margin: 4px;
+  margin: 4px 8px;
 }
 
 header nav a.active {
@@ -41,6 +37,6 @@ header a:last-child {
 
 @media (min-width: 768px) {
   header {
-    padding: 24px 32px;
+    padding: 32px;
   }
 } 

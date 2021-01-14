@@ -10,7 +10,7 @@
   --black: #1D1F1F;
   --gray: #707075;
   --light-gray: #F2F2F3;
-  --overlay: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65));
+  --overlay: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55));
   --image-height: 440px;
 }
 
@@ -37,7 +37,7 @@ p:last-child {
 
 h1 {
   font-family: 'Bebas Neue', sans-serif;
-  font-size: 30px;
+  font-size: 36px;
   margin-bottom: 12px;
   color: var(--black);
 }
@@ -73,10 +73,13 @@ h1 {
   width: auto;
   z-index: 1;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero h1 {
-  font-size: 40px;
+  font-size: 48px;
   margin-bottom: 8px;
   text-align: center;
   color: var(--white);
@@ -130,7 +133,7 @@ article section:first-child {
 }
 
 .quote h1 {
-  font-size: 40px;
+  font-size: 48px;
   color: var(--white);
   margin-bottom: 0;
   text-align: center;
@@ -145,6 +148,11 @@ article section:first-child {
 }
 
 @media (min-width: 768px) {
+  .hero h1,
+  .quote h1 {
+    font-size: 56px;
+  }
+
   article {
     padding: 56px 32px;
   }
