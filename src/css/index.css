@@ -51,11 +51,27 @@ h1 {
   color: var(--white);
   background-size: cover;
   background-position: center;
+  position: relative;
+}
+
+.hero::after,
+.quote::after,
+.slide::after {
+  content: '';
+  width: 100%;
+  min-height: var(--image-height);
+  position: absolute;
+  top: 0;
+  background-image: url('../assets/grain.jpg');
+  background-size: cover;
+  opacity: 0.15;
 }
 
 .hero article {
   display: block;
   width: auto;
+  z-index: 1;
+  position: relative;
 }
 
 .hero h1 {
@@ -97,6 +113,7 @@ article section:first-child {
   background-position: center;
   background-size: cover;
   height: var(--image-height);
+  position: relative;
 }
 
 .quote article {
@@ -106,6 +123,8 @@ article section:first-child {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+  z-index: 1;
 }
 
 .quote h1 {

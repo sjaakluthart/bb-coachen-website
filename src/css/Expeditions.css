@@ -27,6 +27,7 @@
   background-position: center;
   color: var(--white);
   height: var(--image-height);
+  position: relative;
 }
 
 .slide article {
@@ -35,6 +36,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+  z-index: 1;
 }
 
 .slide article h1 {
