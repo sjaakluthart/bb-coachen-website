@@ -96,7 +96,7 @@ h1 {
 
 article {
   width: 100%;
-  padding: 44px 32px;
+  padding: 44px 24px;
   box-sizing: border-box;
   max-width: 1000px;
   margin: 0 auto;
@@ -146,7 +146,7 @@ article section:first-child {
 
 @media (min-width: 768px) {
   article {
-    padding: 56px 0;
+    padding: 56px 32px;
   }
 
   article > section {
