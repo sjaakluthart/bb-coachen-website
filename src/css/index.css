@@ -5,6 +5,7 @@
   --light-green: #92CC8D;
   --dark-green: #1D6839;
   --white: #FEFEFE;
+  --off-white: #FAFAFA;
   --black: #1D1F1F;
   --gray: #707075;
   --light-gray: #F2F2F3;
@@ -18,7 +19,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: var(--gray);
-  background-color: var(--white);
+  background-color: var(--off-white);
 }
 
 p {

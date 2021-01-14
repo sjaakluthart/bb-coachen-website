@@ -6,18 +6,20 @@ import logo from '../assets/logo.svg';
 
 const Header = () => (
   <header className="app-header">
-    <NavLink to="/" exact>
-      <img src={logo} alt="BB Coachen" />
-    </NavLink>
-    <nav>
-      <NavLink to="/about" exact>
-        Wie is BB
+    <section>
+      <NavLink to="/" exact>
+        <img src={logo} alt="BB Coachen" />
       </NavLink>
-      <NavLink to="/expeditions" exact>
-        Expedities
-      </NavLink>
-      <a href="mailto:bart@bbcoachen.nl?subject=Coach Expeditie" className="sign-up">Meld je aan</a>
-    </nav>
+      <nav>
+        <NavLink to="/about" exact>
+          Wie is BB
+        </NavLink>
+        <NavLink to="/expeditions" exact>
+          Expedities
+        </NavLink>
+        <a href="mailto:bart@bbcoachen.nl?subject=Coach Expeditie" className="sign-up">Meld je aan</a>
+      </nav>
+    </section>
   </header>
 );
 

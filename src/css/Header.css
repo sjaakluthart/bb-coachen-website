@@ -1,4 +1,8 @@
 header {
+  background-color: var(--white);
+}
+
+header section {
   max-width: 1000px;
   margin: 0 auto;
   box-sizing: border-box;
@@ -36,7 +40,7 @@ header a:last-child {
 }
 
 @media (min-width: 768px) {
-  header {
+  header section {
     padding: 32px;
   }
 } 
