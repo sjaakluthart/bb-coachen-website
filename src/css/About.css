@@ -1,8 +1,0 @@
-.about .hero {
-  background-image: var(--overlay), url('../assets/hero-about.jpg');
-}
-
-.quote.bike {
-  background-image: var(--overlay), url('../assets/bike.jpg');
-  background-position: top;
-}

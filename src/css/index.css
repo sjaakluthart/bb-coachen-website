@@ -39,48 +39,6 @@ h1 {
   color: var(--black);
 }
 
-.hero {
-  min-height: var(--image-height);
-  width: 100%;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: var(--white);
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-
-.hero article {
-  display: block;
-  width: auto;
-  z-index: 1;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.hero h1 {
-  font-size: 48px;
-  margin-bottom: 8px;
-  text-align: center;
-  color: var(--white);
-}
-
-.hero p {
-  max-width: 440px;
-  font-size: 19px;
-  line-height: 25px;
-  margin-bottom: 8px;
-  text-align: center;
-}
-
-.hero p:last-child {
-  margin-bottom: 0;
-}
-
 article {
   width: 100%;
   padding: 44px 24px;
@@ -98,37 +56,32 @@ article section:first-child {
   margin-right: 24px;
 }
 
-.quote {
-  background-position: center;
-  background-size: cover;
-  height: var(--image-height);
-  position: relative;
-}
-
-.quote article {
-  height: 100%;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  z-index: 1;
-}
-
-.quote h1 {
-  font-size: 48px;
-  color: var(--white);
-  margin-bottom: 0;
-  text-align: center;
-}
-
 .sign-up {
   font-weight: 500;
   color: var(--green);
   text-decoration: none;
   font-size: 18px;
   line-height: 24px;
+}
+
+.slick-prev {
+  left: 24px;
+  z-index: 1;
+}
+
+.slick-next {
+  right: 24px;
+  z-index: 1;
+}
+
+.slick-dots {
+  bottom: 6px;
+}
+
+.slick-dots li button:before,
+.slick-dots li.slick-active button:before {
+  color: var(--white);
+  font-size: 8px;
 }
 
 @media (min-width: 768px) {

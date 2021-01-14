@@ -1,21 +1,18 @@
 /* eslint max-len: 0 */
 import React from 'react';
 
-import '../css/Home.css';
+import Image from './Image';
+import home from '../assets/home.jpg';
+import buiten from '../assets/buiten.jpg';
+import vuur from '../assets/vuur.jpg';
 
 const Home = () => (
   <main className="page home">
-    <section className="hero">
-      <article>
-        <h1>Bart Boogaard, Buitencoach</h1>
-        {/* <p>
-          Je bent een ondernemende jongvolwassene of (top)sporter. Je wilt je doelen bereiken. In je werk, studie of sport én in je leven. Maar je hebt niet helder waarom je niet verder komt. Of wat je het allerliefste wilt. Wat nu?
-        </p> */}
-        <p>
-          Ik ga met jou op zoek naar jouw focus, wat voor jou werkt en naar jouw glimlach.
-        </p>
-      </article>
-    </section>
+    <Image
+      imageUrl={home}
+      title="Bart Boogaard, buitencoach"
+      subTitle="Ik ga met jou op zoek naar jouw focus, wat voor jou werkt en naar jouw glimlach."
+    />
     <article>
       <h1>Wat wil je?</h1>
       <section>
@@ -49,11 +46,10 @@ const Home = () => (
         </section>
       </section>
     </article>
-    <section className="quote buiten">
-      <article>
-        <h1>Buiten is waar het begint</h1>
-      </article>
-    </section>
+    <Image
+      imageUrl={buiten}
+      title="Buiten is waar het begint"
+    />
     <article>
       <h1>Hoe ik werk</h1>
       <section>
@@ -81,11 +77,10 @@ const Home = () => (
         </section>
       </section>
     </article>
-    <section className="quote vuur">
-      <article>
-        <h1>Brandt jouw vuur nog?</h1>
-      </article>
-    </section>
+    <Image
+      imageUrl={vuur}
+      title="Brandt jouw vuur nog?"
+    />
     <article>
       <h1>Hoe ziet een Coach Expeditie eruit?</h1>
       <section>

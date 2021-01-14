@@ -1,18 +1,17 @@
 /* eslint max-len: 0 */
 import React from 'react';
 
-import '../css/About.css';
+import Image from './Image';
+import about from '../assets/about.jpg';
+import bike from '../assets/bike.jpg';
 
 const About = () => (
   <main className="page about">
-    <section className="hero">
-      <article>
-        <h1>Wie is Bart?</h1>
-        <p>
-          Bart is een nuchtere en aimabele levenskunstenaar met empathie.
-        </p>
-      </article>
-    </section>
+    <Image
+      imageUrl={about}
+      title="Wie is Bart?"
+      subTitle="Bart is een nuchtere en aimabele levenskunstenaar met empathie."
+    />
     <article>
       <h1>Bart Boogaard</h1>
       <section>
@@ -43,11 +42,10 @@ const About = () => (
         </section>
       </section>
     </article>
-    <section className="quote bike">
-      <article>
-        <h1>Je best doen is mooi<br />maar je kunt beter het beste doen</h1>
-      </article>
-    </section>
+    <Image
+      imageUrl={bike}
+      title="Je best doen is mooi maar je kunt beter het beste doen"
+    />
   </main>
 );
 

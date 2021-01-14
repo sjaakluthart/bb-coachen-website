@@ -2,7 +2,11 @@
 import React from 'react';
 import Slider from 'react-slick';
 
-import '../css/Expeditions.css';
+import Image from './Image';
+import expeditions from '../assets/expeditions.jpg';
+import robbert from '../assets/robbert.jpg';
+import jelmer from '../assets/jelmer.jpg';
+import sjaak from '../assets/sjaak.jpg';
 
 const sliderSettings = {
   dots: true,
@@ -14,14 +18,11 @@ const sliderSettings = {
 
 const Expeditions = () => (
   <main className="page expeditions">
-    <section className="hero">
-      <article>
-        <h1>Leef met een glimlach</h1>
-        <p>
-          Ik ga met jou op zoek naar jouw focus, wat voor jou werkt en naar jouw glimlach.
-        </p>
-      </article>
-    </section>
+    <Image
+      imageUrl={expeditions}
+      title="Leef met een glimlach"
+      subTitle="Ik ga met jou op zoek naar jouw focus, wat voor jou werkt en naar jouw glimlach."
+    />
     <article>
       <h1>Hoe ziet een Coach Expeditie eruit?</h1>
       <section>
@@ -44,30 +45,22 @@ const Expeditions = () => (
     <Slider
       {...sliderSettings} // eslint-disable-line react/jsx-props-no-spreading
     >
-      <section className="slide robbert">
-        <article>
-          <h1>Het verhaal van Robbert</h1>
-          <p>
-            Dankzij Bart zijn kwaliteiten kon ik van Benelux topper naar top 25 kandidaat voor wereldbekers. Bovenal ben ik door de inzichten van Bart een beter en uitgebalanceerde mens geworden.
-          </p>
-        </article>
-      </section>
-      <section className="slide sjaak">
-        <article>
-          <h1>Het verhaal van Sjaak</h1>
-          <p>
-            Na een RSI klacht ben ik bij Bart terecht gekomen, nadat een jaar lang fysio me niet verder hielp. Nu kan ik weer basgitaar spelen, gun ik mezelf momenten om te genieten en wil ik een switch in werk maken.
-          </p>
-        </article>
-      </section>
-      <section className="slide jelmer">
-        <article>
-          <h1>Het verhaal van Jelmer</h1>
-          <p>
-            Toen ik begon bij Bart was ik op weg om snel &apos;oud&apos; te worden, als 25-jarig mens met een chronische knieblessure. Na een jaar intensief begeleiding van Bart ben ik weer op weg om wedstrijdwielrenner te worden.
-          </p>
-        </article>
-      </section>
+      <Image
+        imageUrl={robbert}
+        title="Het verhaal van Robbert"
+        subTitle="Dankzij Bart zijn kwaliteiten kon ik van Benelux topper naar top 25 kandidaat voor wereldbekers. Bovenal ben ik door de inzichten van Bart een beter en uitgebalanceerde mens geworden."
+      />
+      <Image
+        imageUrl={jelmer}
+        title="Het verhaal van Jelmer"
+        subTitle="Dankzij Bart zijn kwaliteiten kon ik van Benelux topper naar top 25 kandidaat voor wereldbekers. Bovenal ben ik door de inzichten van Bart een beter en uitgebalanceerde mens geworden."
+      />
+      <Image
+        imageUrl={sjaak}
+        backgroundPosition="top"
+        title="Het verhaal van Sjaak"
+        subTitle="Na een RSI klacht ben ik bij Bart terecht gekomen. Nu kan ik weer muziek maken en gun ik mezelf momenten om te genieten."
+      />
     </Slider>
   </main>
 );
