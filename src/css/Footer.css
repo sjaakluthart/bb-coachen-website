@@ -4,6 +4,24 @@ footer {
   background-color: var(--light-gray);
 }
 
+footer .contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+footer .contact div {
+  display: flex;
+  align-items: center;
+  padding: 0 8px 16px;
+}
+
+footer img {
+  width: 28px;
+  margin-right: 8px;
+}
+
 footer p,
 footer a {
   font-size: 16px;
