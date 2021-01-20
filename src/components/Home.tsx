@@ -30,12 +30,12 @@ const Home = () => (
             Heb je wel eens stil gestaan en om steun gevraagd?
           </p>
           <p>
-            De juiste hulp vinden, is niet makkelijk…
+            De juiste hulp vinden, is niet makkelijk.
           </p>
         </section>
         <section>
           <p>
-            Je wilt geen oude wijsneus of een gekunsteld verhaal. En zit zeker niet te wachten op geneuzel, zinloze opdrachten of platte oneliners.
+            Je wilt geen oude wijsneus of een gekunsteld verhaal. En je zit zeker niet te wachten op geneuzel, zinloze opdrachten of platte oneliners.
           </p>
           <p>
             Wat jij wilt, is een coach met wie het klikt en waar je vertrouwen in hebt. Die luistert, je verder helpt en met wie je het ook gewoon leuk hebt.
@@ -55,7 +55,7 @@ const Home = () => (
       <section>
         <section>
           <p>
-            Ik begeleid al meer dan tien jaar mensen die het beste uit zichzelf en het leven willen halen. Die meer zelfvertrouwen en eigenaarschap willen. Vooral jongvolwassenen die willen excelleren in hun leven, werk, studie of sport. Of gewoon weer plezier willen hebben in wat ze doen.
+            Ik begeleid al meer dan tien jaar mensen die het beste uit zichzelf en het leven willen halen. Vooral jongvolwassenen die willen excelleren in hun leven, werk, studie of sport. Of gewoon weer plezier willen hebben in wat ze doen.
           </p>
           <p>
             Met rust luister ik, confronteer ik en laat ik je voelen. We gaan naar buiten, met elkaar in gesprek en doen fysieke oefeningen.
@@ -68,9 +68,9 @@ const Home = () => (
           <p>
             Waar je ook aandacht aan geeft in jouw Coach Expeditie, je zult ontdekken dat het doorwerkt in de rest van je leven.
           </p>
-          <p>
+          {/* <p>
             Om jouw persoonlijke traject vorm te geven, tap ik uit mijn ervaring als mental coach en mijn coachopleiding, aanvullende opleidingen en workshops. En natuurlijk uit mijn eigen sportervaring en mijn persoonlijke ontwikkelingspad.
-          </p>
+          </p> */}
           <p>
             We gaan samen op weg, met aandacht voor wat nodig is. Ik laat je ervaren en nieuwe wegen ontdekken, maar nooit verdwalen.
           </p>
