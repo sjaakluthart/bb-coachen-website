@@ -2,11 +2,11 @@ import React from 'react';
 import { hydrate, render } from 'react-dom';
 // import 'slick-carousel/slick/slick.css';
 // import 'slick-carousel/slick/slick-theme.css';
+import 'reset-css';
 import '@fontsource/bebas-neue';
 import '@fontsource/poppins';
 import '@fontsource/poppins/500.css';
 
-import './css/MeyerReset.css';
 import './css/index.css';
 import Router from './router';
 import reportWebVitals from './reportWebVitals';
