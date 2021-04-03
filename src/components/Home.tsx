@@ -5,14 +5,23 @@ import Image from './Image';
 import home from '../assets/home.jpg';
 import buiten from '../assets/buiten.jpg';
 import vuur from '../assets/vuur.jpg';
+import getBackgroundStyles from '../utils/getBackgroundStyles';
+
+const style = {
+  ...getBackgroundStyles(home),
+  backgroundPosition: 'center',
+};
 
 const Home = () => (
   <main className="page home">
-    <Image
-      imageUrl={home}
-      title="Bart Boogaard, buitencoach"
-      subTitle="Ik ga met jou op zoek naar jouw focus, wat voor jou werkt en naar jouw glimlach."
-    />
+    <section className="image" style={style}>
+      <article>
+        <h1>Bart Boogaard, buitencoach</h1>
+        <p>Je bent een ondernemende jongvolwassene of (top)sporter.</p>
+        <p>Je wilt je doelen bereiken. In je werk, studie of sport én in je leven. Maar hebt niet helder waarom je niet verder komt. Of wat je het allerliefste wilt. Wat nu?</p>
+        <p>Ik ga met jou op zoek naar jouw focus, wat voor jou werkt en naar jouw glimlach.</p>
+      </article>
+    </section>
     <article>
       <h1>Wat wil je?</h1>
       <section>
@@ -63,14 +72,22 @@ const Home = () => (
           <p>
             Door die ervaringen ga je anders kijken naar jezelf en je omgeving. En ontdek je stappen die je tot dan toe niet zag.
           </p>
+          <ul>
+            <h1>Voorbeelden van mensen die jou voorgingen:</h1>
+            <li>Pijnvrij terug op racefiets en dan nu echt met plezier.</li>
+            <li>Werken met een glimlach in plaats van ander werk.</li>
+            <li>Kwalificatie voor EK en WK mountainbiken na sporten op nationaal niveau.</li>
+            <li>Vriendschappen en relaties verdiepen, privé en op het werk.</li>
+            <li>Weer vrij basgitaar spelen, een band starten en genieten van wat weer lukt.</li>
+          </ul>
         </section>
         <section>
           <p>
             Waar je ook aandacht aan geeft in jouw Coach Expeditie, je zult ontdekken dat het doorwerkt in de rest van je leven.
           </p>
-          {/* <p>
+          <p>
             Om jouw persoonlijke traject vorm te geven, tap ik uit mijn ervaring als mental coach en mijn coachopleiding, aanvullende opleidingen en workshops. En natuurlijk uit mijn eigen sportervaring en mijn persoonlijke ontwikkelingspad.
-          </p> */}
+          </p>
           <p>
             We gaan samen op weg, met aandacht voor wat nodig is. Ik laat je ervaren en nieuwe wegen ontdekken, maar nooit verdwalen.
           </p>
