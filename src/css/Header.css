@@ -30,6 +30,11 @@ header .sign-up {
   margin: 4px 8px;
 }
 
+header a img {
+  display: block;
+  height: 80px;
+}
+
 header nav a.active {
   border-bottom: 2px solid currentColor;
 }
