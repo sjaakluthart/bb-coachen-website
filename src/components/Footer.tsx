@@ -11,7 +11,7 @@ const Footer = () => (
     <section className="contact">
       <div>
         <img src={home} alt="home" />
-        <p>Sneeuwvlerk 18, 8802DB Franeker</p>
+        <a href="https://goo.gl/maps/8TbRsz5t7V4P7SBV6" target="_blank" rel="noreferrer">Sneeuwvlerk 18, 8802DB Franeker</a>
       </div>
       <div>
         <img src={phone} alt="phone" />
