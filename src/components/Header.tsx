@@ -17,7 +17,7 @@ const Header = () => (
         {/* <NavLink to="/expeditions" exact>
           Expedities
         </NavLink> */}
-        <a href="mailto:bart@bbcoachen.nl?subject=Coach Expeditie" className="sign-up">Meld je aan</a>
+        <a href="mailto:bart@bbcoachen.nl?subject=Coach Expeditie" className="sign-up">Maak een afspraak</a>
       </nav>
     </section>
   </header>

@@ -16,7 +16,8 @@ const Home = () => (
   <main className="page home">
     <section className="image" style={style}>
       <article>
-        <h1>Bart Boogaard, buitencoach</h1>
+        <h1>Bart Boogaard</h1>
+        <h2>Buitencoach | Mental coach</h2>
         <p>Je bent een ondernemende jongvolwassene of (top)sporter.</p>
         <p>Je wilt je doelen bereiken. In je werk, studie of sport én in je leven. Maar hebt niet helder waarom je niet verder komt. Of wat je het allerliefste wilt. Wat nu?</p>
         <p>Ik ga met jou op zoek naar jouw focus, wat voor jou werkt en naar jouw glimlach.</p>
@@ -105,6 +106,9 @@ const Home = () => (
           <p>
             Een Coach Expeditie start altijd met een kosteloos oriënterend gesprek. Ik luister en jij vertelt wat je zoekt en welke tijd- en financiële investering je kunt bieden. Op basis daarvan bespreken we de lengte en vorm van de Coach Expeditie die past bij jou.
           </p>
+          <a href="mailto:bart@bbcoachen.nl?subject=Coach Expeditie" className="sign-up button">Maak een afspraak</a>
+        </section>
+        <section>
           <ul>
             <h1>Een Coach Expeditie bestaat uit:</h1>
             <li>
@@ -119,13 +123,10 @@ const Home = () => (
             <li>
               hoge intensiteit in het eerste kwartaal
             </li>
+            <li>
+              gemiddeld duurt een Coach Expeditie twee kwartalen
+            </li>
           </ul>
-        </section>
-        <section>
-          <p>
-            Gemiddeld duurt een Coach Expeditie twee tot vier kwartalen. Qua kosten voor een expeditie kun je denken aan circa €800 tot €1.400 inclusief btw. (voor bedrijven is dit exclusief btw)
-          </p>
-          <a href="mailto:bart@bbcoachen.nl?subject=Coach Expeditie" className="sign-up button">Meld je aan</a>
         </section>
       </section>
     </article>

@@ -44,3 +44,9 @@
 .home .image:first-child p {
   text-align: left;
 }
+
+.home .image:first-child h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin: 16px 0 8px;
+}
