@@ -19,9 +19,8 @@ header nav {
   justify-content: flex-end;
 }
 
-header nav a,
-header .sign-up {
-  font-size: 30px;
+header nav a {
+  font-size: 22px;
   line-height: inherit;
   color: var(--black);
   text-decoration: none;
@@ -32,7 +31,7 @@ header .sign-up {
 
 header a img {
   display: block;
-  height: 100px;
+  height: 70px;
 }
 
 header nav a.active {
@@ -44,8 +43,18 @@ header a:last-child {
   color: var(--green);
 }
 
+@media (min-width: 375px) {
+  header nav a {
+    font-size: 30px;
+  }
+}
+
 @media (min-width: 768px) {
   header section {
     padding: 24px 32px;
+  }
+
+  header a img {
+    height: 100px;
   }
 } 
