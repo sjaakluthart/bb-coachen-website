@@ -76,7 +76,7 @@ const Home = () => (
           <ul>
             <h1>Voorbeelden van mensen die jou voorgingen:</h1>
             <li>Pijnvrij terug op racefiets en dan nu echt met plezier.</li>
-            <li>Werken met een glimlach in plaats van ander werk.</li>
+            <li>Werken met een glimlach in plaats van een wens voor ander werk.</li>
             <li>Kwalificatie voor EK en WK mountainbiken na sporten op nationaal niveau.</li>
             <li>Vriendschappen en relaties verdiepen, privé en op het werk.</li>
             <li>Weer vrij basgitaar spelen, een band starten en genieten van wat weer lukt.</li>
