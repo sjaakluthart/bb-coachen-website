@@ -22,7 +22,7 @@
 }
 
 .image h1 {
-  font-size: 56px;
+  font-size: 48px;
   text-align: center;
   color: var(--white);
   margin-bottom: 0;
@@ -30,8 +30,8 @@
 
 .image p {
   max-width: 440px;
-  font-size: 21px;
-  line-height: 25px;
+  font-size: 18px;
+  line-height: 21px;
   text-align: center;
   margin-top: 12px;
 }
@@ -46,7 +46,7 @@
 }
 
 .home .image:first-child h2 {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 600;
   margin: 16px 0 8px;
 }
@@ -58,4 +58,19 @@
 
 .about .image:first-child p {
   text-align: right;
+}
+
+@media (min-width: 414px) {
+  .image h1 {
+    font-size: 56px;
+  }
+
+  .image p {
+    font-size: 21px;
+    line-height: 25px;
+  }
+
+  .home .image:first-child h2 {
+    font-size: 32px;
+  }
 }
