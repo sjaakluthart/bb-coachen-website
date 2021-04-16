@@ -26,7 +26,7 @@ const About = () => (
             Ervaringen die ik verbind met mijn jarenlange training in tai chi, waarmee actie en souplesse samenkomen.
           </p>
           <p>
-            Ik werk als financieel professional en begeleidde al jaren ambitieuze sporters. Inmiddels heb ik al heel wat mensen begeleid die verder wilden komen op sportief gebied en in het leven. Zo heb ik een professioneel mountainbiketeam mentaal begeleid en vele (top)sporters individueel en (top)sportteams.
+            Ik werk als financieel professional en coach. Inmiddels heb ik al heel wat mensen begeleid die verder wilden komen op sportief gebied en in het leven. Zo heb ik een professioneel mountainbiketeam mentaal begeleid en vele (top)sporters individueel en (top)sportteams.
           </p>
         </section>
         <section>
