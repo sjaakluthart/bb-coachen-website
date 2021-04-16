@@ -50,3 +50,12 @@
   font-weight: 600;
   margin: 16px 0 8px;
 }
+
+.about .image:first-child article {
+  width: 100%;
+  align-items: flex-end;
+}
+
+.about .image:first-child p {
+  text-align: right;
+}
