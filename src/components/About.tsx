@@ -2,13 +2,13 @@
 import React from 'react';
 
 import Image from './Image';
-import about from '../assets/about.jpg';
+import bart from '../assets/bart.jpg';
 import bike from '../assets/bike.jpg';
 
 const About = () => (
   <main className="page about">
     <Image
-      imageUrl={about}
+      imageUrl={bart}
       title="Wie is Bart?"
       subTitle="Bart is een nuchtere en aimabele levenskunstenaar met empathie."
     />
