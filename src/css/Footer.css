@@ -11,7 +11,7 @@ footer .contact {
   flex-wrap: wrap;
 }
 
-footer .contact div {
+footer .contact a {
   display: flex;
   align-items: center;
   padding: 0 8px 16px;
@@ -19,7 +19,10 @@ footer .contact div {
 
 footer img {
   width: 28px;
-  margin-right: 8px;
+}
+
+footer img + span {
+  margin-left: 8px;
 }
 
 footer p,
