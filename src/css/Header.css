@@ -15,8 +15,10 @@ header section {
 
 header nav {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: flex-end;
+  align-items: flex-end;
+  height: 70px;
 }
 
 header nav a {
@@ -24,9 +26,7 @@ header nav a {
   line-height: inherit;
   color: var(--black);
   text-decoration: none;
-  border-bottom: 2px solid transparent;
   display: inline-block;
-  margin: 4px 8px;
 }
 
 header a img {
@@ -40,6 +40,7 @@ header nav a.active {
 
 header a:last-child {
   margin-right: 0;
+  margin-top: 5px;
   color: var(--green);
 }
 
@@ -52,6 +53,22 @@ header a:last-child {
 @media (min-width: 768px) {
   header section {
     padding: 24px 32px;
+  }
+
+  header nav {
+    height: 100px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  header nav a {
+    border-bottom: 2px solid transparent;
+    margin: 0 8px;
+    margin-top: 2px;
+  }
+
+  header a:last-child {
+    margin-top: 2px;
   }
 
   header a img {
