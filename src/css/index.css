@@ -1,7 +1,7 @@
 :root {
   --green: #39B54A;
   --soft-green: #D3EBD1;
-  --softer-green: #EAf6EA;
+  --softer-green: #EAF6EA;
   --light-green: #92CC8D;
   --dark-green: #1D6839;
   --white: #FEFEFE;
@@ -101,8 +101,8 @@ article section:first-child {
   bottom: 6px;
 }
 
-.slick-dots li button:before,
-.slick-dots li.slick-active button:before {
+.slick-dots li button::before,
+.slick-dots li.slick-active button::before {
   color: var(--white);
   font-size: 8px;
 }
@@ -121,7 +121,7 @@ article section:first-child {
     display: flex;
     flex-wrap: wrap;
   }
-  
+
   article section:first-child {
     margin-bottom: 0;
   }

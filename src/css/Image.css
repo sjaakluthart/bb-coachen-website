@@ -12,7 +12,6 @@
 }
 
 .image article {
-  display: block;
   width: auto;
   z-index: 1;
   position: relative;

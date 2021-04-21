@@ -11,12 +11,6 @@ footer .contact {
   flex-wrap: wrap;
 }
 
-footer .contact a {
-  display: flex;
-  align-items: center;
-  padding: 0 8px 16px;
-}
-
 footer img {
   width: 28px;
 }
@@ -37,5 +31,11 @@ footer a {
 
 footer nav a {
   display: inline-block;
+  padding: 0 8px 16px;
+}
+
+footer .contact a {
+  display: flex;
+  align-items: center;
   padding: 0 8px 16px;
 }
